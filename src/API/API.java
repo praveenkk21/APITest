@@ -53,7 +53,6 @@ import org.testng.Assert;
 			  System.out.println("This is response2"+response);
 			  String OutputAddres=js2.getString("address");
 			  System.out.println(OutputAddres);
-			  
 			  Assert.assertEquals(Actualaddress, OutputAddres);
 			}
 	}
